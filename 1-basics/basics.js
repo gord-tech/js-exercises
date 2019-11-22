@@ -12,7 +12,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             //const someVariable = undefined
-
+    let someVariable = true
             ////////////////////////////////////////////////////////////////////
 
             expect(someVariable).to.equal(true);
